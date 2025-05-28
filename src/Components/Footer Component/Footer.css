@@ -1,0 +1,84 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px 20px;
+  font-family: 'Arial', sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-logo-section {
+  max-width: 200px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.up-highlight {
+  color: #00ff73;
+}
+
+.badge {
+  margin-top: 15px;
+  width: 100px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-links h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  color: #d1ffd1;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #00ff73;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #111;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  color: #888;
+}
+
+.social-icons svg:hover {
+  color: #00ff73;
+  cursor: pointer;
+}

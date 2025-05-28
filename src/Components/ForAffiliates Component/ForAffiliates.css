@@ -1,0 +1,296 @@
+ .background-wrapper {
+  background: linear-gradient(to right, #ffffff, #ffe082);
+  min-height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.affiliate-container {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #ffffff, #ffe082);
+  font-family: Arial, sans-serif;
+}
+
+.affiliate-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.affiliate-subtitle {
+  font-size: 18px;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+.affiliate-button {
+  background-color: #ffc107;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.affiliate-button:hover {
+  background-color: #ffb300;
+}
+
+.arrow {
+  margin-left: 6px;
+}
+
+.background-wrapper {
+  background: url("../../img/nature-mountain-displays-radiant-colors-sunset-generative-ai.jpg") no-repeat center center;
+  background-size: 80%; /* Keeps the image scaled to 80% of its original size */
+  min-height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.affiliate-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.affiliate-image {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.affiliate-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.affiliate-content {
+  flex: 1 1 500px;
+  padding: 20px 40px;
+}
+
+.affiliate-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #111;
+}
+
+.affiliate-content p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.affiliate-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.affiliate-features li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.check-icon {
+  color: #f4b400; /* gold checkmark */
+  font-size: 1.5rem;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+.affiliate-features strong {
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.affiliate-features p {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+
+.join-share-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: #000;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #5f6c72;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+.steps-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.step {
+  flex: 1 1 300px;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.step-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.step h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  color: #5f6c72;
+  line-height: 1.6;
+}
+
+
+.calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator-text {
+  max-width: 50%;
+}
+
+.calculator-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.calculator-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.calculator-math p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.calculator-math strong {
+  font-size: 28px;
+  display: block;
+  color: #000;
+}
+
+.math-symbol {
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+  margin: 10px 0;
+}
+
+.calculator-image img {
+  max-width: 400px;
+  height: auto;
+}
+
+
+.passive-income-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.passive-income-section h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  color: #666;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.earn-now-button {
+  background: #ffc400;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  transition: background 0.3s;
+}
+
+.earn-now-button:hover {
+  background: #ffb100;
+}
+
+.contact-link {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+

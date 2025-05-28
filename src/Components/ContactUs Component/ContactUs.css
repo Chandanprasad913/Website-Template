@@ -1,0 +1,137 @@
+.contact-container {
+  display: flex;
+  background-color: #fff;
+  padding: 40px;
+  gap: 40px;
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1;
+}
+
+.managed-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.message-button {
+  background-color: #00cc00;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.or-text {
+  margin: 10px 0;
+}
+
+.email-link {
+  font-size: 20px;
+  color: #00cc00;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.note-text {
+  color: #555;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.publisher-note {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+.submission-link {
+  color: #00cc00;
+  text-decoration: none;
+}
+
+.contact-right h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.contact-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.support-text {
+  color: #555;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #00cc00;
+}
+
+
+
+.hero-container {
+  text-align: center;
+  padding: 80px 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.hero-button {
+  background-color: #00cc00;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-question {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.hero-link {
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.arrow {
+  margin-left: 6px;
+}

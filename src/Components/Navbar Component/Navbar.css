@@ -1,0 +1,108 @@
+/* Reset default margins and paddings */
+ /* Reset default margins and paddings */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: Adjust if content is hidden under sticky navbar */
+body {
+  padding-top: 0; 
+} 
+
+.logo {
+  width: 100px; /* Set the desired width */
+  height: 50px; /* Maintain aspect ratio */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* padding-top: 80px; Prevent content overlap */
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar__logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar__logo .up {
+  color: white;
+  position: relative;
+}
+
+.navbar__logo .up::after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-left: 4px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #00FF00; /* green triangle */
+}
+
+.navbar__links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar__links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.navbar__links a:hover {
+  color: #00FF00;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar__actions i {
+  font-size: 16px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar__actions i:hover {
+  color: #00FF00;
+}
+
+.platform-btn {
+  padding: 8px 14px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.platform-btn:hover {
+  background-color: #00FF00;
+  color: black;
+}
